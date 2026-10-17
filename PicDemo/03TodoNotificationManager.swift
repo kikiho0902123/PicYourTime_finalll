@@ -41,6 +41,8 @@ class TodoNotificationManager {
         let daysAhead = defaults.integer(forKey: "todoDaysAhead")
         let hour = defaults.integer(forKey: "todoNotifHour")
         let minute = defaults.integer(forKey: "todoNotifMinute")
+        var calendar = Calendar.autoupdatingCurrent
+        calendar.timeZone = .autoupdatingCurrent
 
         var statelessInterval = defaults.integer(forKey: "statelessTodoInterval")
         if statelessInterval == 0 { statelessInterval = 1 }
@@ -61,21 +63,21 @@ class TodoNotificationManager {
                 guard let dueDate = todo.dueDate else { continue }
 
                 for offset in 0...daysAhead {
-                    var targetDate = Calendar.current.date(byAdding: .day, value: -offset, to: dueDate) ?? dueDate
-                    targetDate = Calendar.current.date(bySettingHour: hour, minute: minute, second: 0, of: targetDate) ?? targetDate
+                    var targetDate = calendar.date(byAdding: .day, value: -offset, to: dueDate) ?? dueDate
+                    targetDate = calendar.date(bySettingHour: hour, minute: minute, second: 0, of: targetDate) ?? targetDate
 
                     guard targetDate > Date() else {
                         print("⏭️ 跳過「\(todo.title)」提前 \(offset) 天的提醒，時間 \(targetDate) 已過去")
                         continue
                     }
 
-                    let fireDay = Calendar.current.startOfDay(for: targetDate)
+                    let fireDay = calendar.startOfDay(for: targetDate)
                     groupedByFireDay[fireDay, default: []].append(TimedReminderEntry(todo: todo, daysRemaining: offset))
                 }
             }
 
             for (fireDay, entries) in groupedByFireDay {
-                let targetDate = Calendar.current.date(bySettingHour: hour, minute: minute, second: 0, of: fireDay) ?? fireDay
+                let targetDate = calendar.date(bySettingHour: hour, minute: minute, second: 0, of: fireDay) ?? fireDay
                 guard targetDate > Date() else { continue }
 
                 let bodyLines = entries
@@ -110,8 +112,8 @@ class TodoNotificationManager {
 
                 while scheduledCount < 5 {
                     let intervalDays = dayOffset * statelessInterval
-                    if let baseDate = Calendar.current.date(byAdding: .day, value: intervalDays, to: Date()),
-                       let finalDate = Calendar.current.date(bySettingHour: hour, minute: minute, second: 0, of: baseDate) {
+                    if let baseDate = calendar.date(byAdding: .day, value: intervalDays, to: Date()),
+                       let finalDate = calendar.date(bySettingHour: hour, minute: minute, second: 0, of: baseDate) {
 
                         if finalDate > Date() {
                             let bodyLines = statelessTodos.map { "・\($0.title)" }
@@ -144,7 +146,11 @@ class TodoNotificationManager {
         content.body = body
         content.sound = .default
 
-        let components = Calendar.current.dateComponents([.year, .month, .day, .hour, .minute], from: targetDate)
+        var calendar = Calendar.autoupdatingCurrent
+        calendar.timeZone = .autoupdatingCurrent
+        var components = calendar.dateComponents([.year, .month, .day, .hour, .minute], from: targetDate)
+        components.calendar = calendar
+        components.timeZone = .autoupdatingCurrent
         let trigger = UNCalendarNotificationTrigger(dateMatching: components, repeats: false)
 
         let request = UNNotificationRequest(identifier: id, content: content, trigger: trigger)

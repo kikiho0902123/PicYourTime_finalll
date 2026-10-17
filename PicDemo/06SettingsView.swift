@@ -55,13 +55,14 @@ struct SettingsView: View {
     private var todoTimeBinding: Binding<Date> {
         Binding(
             get: {
-                var components = DateComponents()
-                components.hour = todoNotifHour
-                components.minute = todoNotifMinute
-                return Calendar.current.date(from: components) ?? Date()
+                var calendar = Calendar.autoupdatingCurrent
+                calendar.timeZone = .autoupdatingCurrent
+                return calendar.date(bySettingHour: todoNotifHour, minute: todoNotifMinute, second: 0, of: Date()) ?? Date()
             },
             set: { newValue in
-                let components = Calendar.current.dateComponents([.hour, .minute], from: newValue)
+                var calendar = Calendar.autoupdatingCurrent
+                calendar.timeZone = .autoupdatingCurrent
+                let components = calendar.dateComponents([.hour, .minute], from: newValue)
                 todoNotifHour = components.hour ?? 8
                 todoNotifMinute = components.minute ?? 0
                 DispatchQueue.main.asyncAfter(deadline: .now() + 0.1) {
@@ -100,13 +101,14 @@ struct SettingsView: View {
     private var diaryTimeBinding: Binding<Date> {
         Binding(
             get: {
-                var components = DateComponents()
-                components.hour = diaryNotifHour
-                components.minute = diaryNotifMinute
-                return Calendar.current.date(from: components) ?? Date()
+                var calendar = Calendar.autoupdatingCurrent
+                calendar.timeZone = .autoupdatingCurrent
+                return calendar.date(bySettingHour: diaryNotifHour, minute: diaryNotifMinute, second: 0, of: Date()) ?? Date()
             },
             set: { newValue in
-                let components = Calendar.current.dateComponents([.hour, .minute], from: newValue)
+                var calendar = Calendar.autoupdatingCurrent
+                calendar.timeZone = .autoupdatingCurrent
+                let components = calendar.dateComponents([.hour, .minute], from: newValue)
                 diaryNotifHour = components.hour ?? 23
                 diaryNotifMinute = components.minute ?? 0
                 DispatchQueue.main.asyncAfter(deadline: .now() + 0.1) {
@@ -839,6 +841,8 @@ struct SettingsView: View {
             content.sound = .default
             
             var components = DateComponents()
+            components.calendar = .autoupdatingCurrent
+            components.timeZone = .autoupdatingCurrent
             components.hour = diaryNotifHour
             components.minute = diaryNotifMinute
             

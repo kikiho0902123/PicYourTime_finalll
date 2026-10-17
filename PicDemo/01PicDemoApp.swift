@@ -49,6 +49,10 @@ struct PicDemoApp: App {
                     isAppReady = true
                 }
             }
+            .onChange(of: scenePhase) { oldPhase, newPhase in
+                guard newPhase == .active else { return }
+                TodoNotificationManager.shared.updateNotifications(todos: allTodos)
+            }
         }
         // 資料庫容器維持不變
         .modelContainer(for: [TodoItem.self, HabitItem.self, DiaryEntry.self, StickyNote.self])
