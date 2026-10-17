@@ -338,6 +338,7 @@ struct AddDiaryView: View {
             entry.imageOffsetX = Double(offset.width)
             entry.imageOffsetY = Double(offset.height)
         } else {
+            // ⭐️ 1. 恢復成你原本的寫法，不要塞入 date 參數
             let newEntry = DiaryEntry(
                 date: targetDate,
                 content: "",
@@ -350,6 +351,9 @@ struct AddDiaryView: View {
                 imageOffsetX: Double(offset.width),
                 imageOffsetY: Double(offset.height)
             )
+            
+            // ⭐️ 2. 關鍵修改：在存入資料庫前，強行把它的日期改成我們要的補登日期！
+            newEntry.date = targetDate
             modelContext.insert(newEntry)
         }
         // ⭐️ 新增這行：存檔成功，通知外層扣除額度！

@@ -15,6 +15,7 @@ struct TodoListView: View {
     @Query(sort: \TodoItem.createdAt, order: .reverse) private var todos: [TodoItem]
     @State private var newTaskTitle: String = ""
     @AppStorage("totalCompletedTodos") private var totalCompletedTodos: Int = 0
+    @AppStorage("latestAIGreeting") private var latestAIGreeting = ""
     @State private var confettiTrigger: Int = 0
     
     @EnvironmentObject var theme: ThemeManager
@@ -101,6 +102,16 @@ struct TodoListView: View {
                         .padding(.horizontal, 9)
                         
                         StickyNoteCardView()
+                            .overlay {
+                                if !latestAIGreeting.isEmpty {
+                                    Text(latestAIGreeting)
+                                        .font(.system(size: 18, weight: .medium, design: .rounded))
+                                        .foregroundColor(theme.textColor.opacity(0.6))
+                                        .multilineTextAlignment(.leading)
+                                        .padding(.horizontal, 67)
+                                        .padding(.top, -90)
+                                }
+                            }
                     }
                     .frame(height: 309)
                     

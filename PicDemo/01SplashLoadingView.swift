@@ -12,6 +12,7 @@ import Combine
 struct SplashLoadingView: View {
     @Environment(\.modelContext) private var modelContext
     @Binding var isAppReady: Bool // 用來通知外部「可以進入主畫面了」
+    @AppStorage("latestAIGreeting") private var latestAIGreeting = ""
     
     @State private var loadingText: String = String(localized: "正在收集散落的記憶...")
     @State private var currentFrame: Int = 1
@@ -74,6 +75,7 @@ struct SplashLoadingView: View {
                 print("DEBUG: 抓到的使用者紀錄內容為：'\(context)'")
                 
                 let aiGreeting = await generateLoadingTextWithTimeout(userContext: context)
+                latestAIGreeting = aiGreeting
                 
                 withAnimation {
                     loadingText = aiGreeting

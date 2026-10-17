@@ -1,1596 +1,1619 @@
 {
-  "sourceLanguage" : "en",
-  "strings" : {
-    "" : {
-
+  "sourceLanguage": "en",
+  "strings": {
+    "": {
+      "localizations": {}
     },
-    "「%@」的值 (%@) 不是有效的 Hex 色碼！請輸入 6 碼英數字 (例如 FFFFFF)." : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "\"%1$@\" (%2$@) is not a valid hex color. Please enter 6 letters or numbers, such as FFFFFF."
+    "「%@」的值 (%@) 不是有效的 Hex 色碼！請輸入 6 碼英數字 (例如 FFFFFF).": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "\"%1$@\" (%2$@) is not a valid hex color. Please enter 6 letters or numbers, such as FFFFFF."
           }
         }
       }
     },
-    "#" : {
-
+    "#": {
+      "localizations": {}
     },
-    "%@" : {
-
+    "%@": {
+      "localizations": {}
     },
-    "%@ - %@" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "%1$@ - %2$@"
+    "%@ - %@": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%1$@ - %2$@"
           }
         }
       }
     },
-    "%lld" : {
-
+    "%lld": {
+      "localizations": {}
     },
-    "%lld 分" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "%lld mins"
+    "%lld 分": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%lld mins"
           }
         }
       }
     },
-    "%lld 天" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "%lld days"
-          }
-        },
-        "zh-Hant" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "%lld 天"
-          }
-        }
-      }
-    },
-    "%lld 天後面對" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Due in %lld days"
-          }
-        }
-      }
-    },
-    "%lld:00" : {
-
-    },
-    "✨ Gemini 已就緒" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "✨ Gemini is ready."
+    "%lld 天": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%lld days"
           }
         },
-        "zh-Hant" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "✨ Gemini 已就緒"
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%lld 天"
           }
         }
       }
     },
-    "AI 語言" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "AI Language"
+    "%lld 天後面對": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Due in %lld days"
           }
         }
       }
     },
-    "AI功能" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "AI Features"
-          }
-        }
-      }
+    "%lld:00": {
+      "localizations": {}
     },
-    "English" : {
-
-    },
-    "一分鐘離開緩衝" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "1-Minute Exit Buffer"
-          }
-        }
-      }
-    },
-    "離開緩衝" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Exit Buffer"
-          }
-        }
-      }
-    },
-    "一路走來的心得" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Reflections along the way"
-          }
-        }
-      }
-    },
-    "上傳照片" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Upload Photo"
+    "✨ Gemini 已就緒": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "✨ Gemini is ready."
           }
         },
-        "zh-Hant" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "上傳照片"
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "✨ Gemini 已就緒"
           }
         }
       }
     },
-    "不滑了！" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Done scrolling!"
+    "AI 語言": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "AI Language"
           }
         }
       }
     },
-    "主題色 1" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Theme Color 1"
+    "AI功能": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "AI Features"
           }
         }
       }
     },
-    "主題色 2" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Theme Color 2"
+    "English": {
+      "localizations": {}
+    },
+    "一分鐘離開緩衝": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "1-Minute Exit Buffer"
           }
         }
       }
     },
-    "主題色 3" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Theme Color 3"
+    "離開緩衝": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Exit Buffer"
           }
         }
       }
     },
-    "了解" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "OK"
-          }
-        },
-        "zh-Hant" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "了解"
+    "一路走來的心得": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Reflections along the way"
           }
         }
       }
     },
-    "今天做！" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Do it today!"
-          }
-        }
-      }
-    },
-    "今天的心情色調" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Today’s mood color"
+    "上傳照片": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Upload Photo"
           }
         },
-        "zh-Hant" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "今天的心情色調"
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "上傳照片"
           }
         }
       }
     },
-    "今日有打卡習慣即可新增當天照片。" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Check in today to add a photo for the day."
+    "不滑了！": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Done scrolling!"
           }
         }
       }
     },
-    "代表顏色" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Color"
+    "主題色 1": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Theme Color 1"
+          }
+        }
+      }
+    },
+    "主題色 2": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Theme Color 2"
+          }
+        }
+      }
+    },
+    "主題色 3": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Theme Color 3"
+          }
+        }
+      }
+    },
+    "了解": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "OK"
           }
         },
-        "zh-Hant" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "代表顏色"
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "了解"
           }
         }
       }
     },
-    "你是最棒的！" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "You’re the best!"
+    "今天做！": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Do it today!"
+          }
+        }
+      }
+    },
+    "今天的心情色調": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Today’s mood color"
           }
         },
-        "zh-Hant" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "你是最棒的！"
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "今天的心情色調"
           }
         }
       }
     },
-    "你有 %lld 件最近要完成的事喔" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "You have %lld upcoming tasks!"
+    "今日有打卡習慣即可新增當天照片。": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Check in today to add a photo for the day."
           }
         }
       }
     },
-    "你現在真的想滑手機嗎？" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Do you really want to scroll on your phone now?"
+    "代表顏色": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Color"
           }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "代表顏色"
+          }
+        }
+      }
+    },
+    "你是最棒的！": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "You’re the best!"
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "你是最棒的！"
+          }
+        }
+      }
+    },
+    "你有 %lld 件最近要完成的事喔": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "You have %lld upcoming tasks!"
+          }
         }
       }
     },
-    "你目前關閉了通知權限喔！\n請到 iOS 的「設定」中為此 App 開啟通知，才能有順暢地打斷體驗！" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Notifications are currently disabled! Please enable them in iOS Settings to ensure a smooth interruption experience."
+    "你現在真的想滑手機嗎？": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Do you really want to scroll on your phone now?"
           }
         }
       }
     },
-    "例如：喝水 2000cc" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "e.g., Drink 2000 ml of water"
+    "你目前關閉了通知權限喔！\n請到 iOS 的「設定」中為此 App 開啟通知，才能有順暢地打斷體驗！": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Notifications are currently disabled! Please enable them in iOS Settings to ensure a smooth interruption experience."
           }
         }
       }
     },
-    "例如：早起大師" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "e.g., Early Bird Master"
+    "例如：喝水 2000cc": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "e.g., Drink 2000 ml of water"
           }
         }
       }
     },
-    "儲存" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Save"
+    "例如：早起大師": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "e.g., Early Bird Master"
           }
         }
       }
     },
-    "最高連續" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Best Streak"
+    "儲存": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Save"
           }
         }
       }
     },
-    "刪除" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Delete"
+    "最高連續": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Best Streak"
           }
         }
       }
     },
-    "刪除後，這項習慣的所有的紀錄都會消失喔！" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Once deleted, all records for this habit will be permanently lost."
+    "刪除": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Delete"
           }
         }
       }
     },
-    "前一天" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "1 day before"
+    "刪除後，這項習慣的所有的紀錄都會消失喔！": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Once deleted, all records for this habit will be permanently lost."
           }
         }
       }
     },
-    "前三天" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "3 days before"
+    "前一天": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "1 day before"
           }
         }
       }
     },
-    "前兩天" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "2 days before"
+    "前三天": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "3 days before"
           }
         }
       }
     },
-    "前往設定" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Go to Settings"
+    "前兩天": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "2 days before"
           }
         }
       }
     },
-    "前方習慣達標後開啟紀錄" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Unlocked once the previous habit target is reached"
+    "前往設定": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Go to Settings"
           }
         }
       }
     },
-    "取消" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Cancel"
+    "前方習慣達標後開啟紀錄": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Unlocked once the previous habit target is reached"
           }
         }
       }
     },
-    "每輪可補數量 = 連續打卡天數 - 本輪已補張數。" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Photos available each streak = consecutive check-in days - photos already added in this streak."
+    "取消": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Cancel"
           }
         }
       }
     },
-    "回覆語言" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Language"
+    "每輪可補數量 = 連續打卡天數 - 本輪已補張數。": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Photos available each streak = consecutive check-in days - photos already added in this streak."
           }
         }
       }
     },
-    "在上方輸入你想做的小事吧！" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Enter something to do above!"
+    "回覆語言": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Language"
           }
         }
       }
     },
-    "在這 %lld 天中，你有 %lld 天有做到\n %@！" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Out of these %1$lld days, you completed \"%3$@\" on %2$lld days!"
+    "在上方輸入你想做的小事吧！": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Enter something to do above!"
           }
         }
       }
     },
-    "夕陽蜜桃" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Sunset Peach"
+    "在這 %lld 天中，你有 %lld 天有做到\n %@！": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Out of these %1$lld days, you completed \"%3$@\" on %2$lld days!"
           }
         }
       }
     },
-    "外觀" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Appearance"
+    "夕陽蜜桃": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sunset Peach"
           }
         }
       }
     },
-    "天" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Days"
+    "外觀": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Appearance"
           }
         }
       }
     },
-    "好吧沒有" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Not really"
+    "天": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Days"
           }
         }
       }
     },
-    "如何設定捷徑通知？" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "How to set up the Shortcut Notifications?"
+    "好吧沒有": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Not really"
           }
         }
       }
     },
-    "如果是 i15pro 以下的機型，\n在此輸入您的 API 金鑰即可享有完整文字體驗。" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "For iPhone 15 plus and older models, enter your API key here to enjoy the full text experience."
+    "如何設定捷徑通知？": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "How to set up the Shortcut Notifications?"
           }
         }
       }
     },
-    "完成率" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Completion Rate"
+    "如果是 i15pro 以下的機型，\n在此輸入您的 API 金鑰即可享有完整文字體驗。": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "For iPhone 15 plus and older models, enter your API key here to enjoy the full text experience."
           }
         }
       }
     },
-    "已儲存本月照片貼紙！" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "The photo sticker has been saved!"
+    "完成率": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Completion Rate"
           }
         }
       }
     },
-    "已獲得徽章：%@" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Badge earned: %@"
+    "已儲存本月照片貼紙！": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "The photo sticker has been saved!"
           }
         }
       }
     },
-    "影像來源" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Photo"
+    "已獲得徽章：%@": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Badge earned: %@"
           }
         }
       }
     },
-    "影像日記" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Photo Diary"
+    "影像來源": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Photo"
           }
         }
       }
     },
-    "待辦提醒" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "To-do Reminder"
+    "影像日記": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Photo Diary"
           }
         }
       }
     },
-    "必須「連續打卡滿 3 天」才能解鎖補照片的權限！你目前連續 %lld 天，再堅持一下下！" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "You need a 3-day check-in streak to unlock catch-up photos. You’re currently on a %lld-day streak. Keep going!"
+    "待辦提醒": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "To-do Reminder"
           }
         }
       }
     },
-    "忘記打卡？" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Forgot?"
+    "必須「連續打卡滿 3 天」才能解鎖補照片的權限！你目前連續 %lld 天，再堅持一下下！": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "You need a 3-day check-in streak to unlock catch-up photos. You’re currently on a %lld-day streak. Keep going!"
           }
         }
       }
     },
-    "快來記錄今天的照片日記吧，別讓回憶溜走啦～" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Capture today's photo diary—don't let the memories slip away!"
+    "忘記打卡？": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Forgot?"
           }
         }
       }
     },
-    "您似乎尚未允許相簿存取權限。請前往系統設定中開啟，才能將相片牆下載下來喔！" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Photo access permissions seem to be off. Please enable them in System Settings to download your photo wall!"
+    "快來記錄今天的照片日記吧，別讓回憶溜走啦～": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Capture today's photo diary—don't let the memories slip away!"
           }
         }
       }
     },
-    "成功培養習慣！領取徽章" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Habit built successfully! Claim your badge"
+    "您似乎尚未允許相簿存取權限。請前往系統設定中開啟，才能將相片牆下載下來喔！": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Photo access permissions seem to be off. Please enable them in System Settings to download your photo wall!"
           }
         }
       }
     },
-    "我會努力" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "I’ll do my best"
+    "成功培養習慣！領取徽章": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Habit built successfully! Claim your badge"
           }
         }
       }
     },
-    "我有做但我忘記打卡" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "I did it, but forgot to record"
+    "我會努力": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "I’ll do my best"
           }
         }
       }
     },
-    "我知道了" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Got it"
+    "我有做但我忘記打卡": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "I did it, but forgot to record"
           }
         }
       }
     },
-    "抹茶燕麥" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Matcha Oat"
+    "我知道了": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Got it"
           }
         }
       }
     },
-    "按鈕文字" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Button Text"
+    "抹茶燕麥": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Matcha Oat"
           }
         }
       }
     },
-    "捷徑功能" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Shortcut Feature"
+    "按鈕文字": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Button Text"
           }
         }
       }
     },
-    "捷徑通知設定步驟" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Shortcut Notification Setup"
+    "捷徑功能": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Shortcut Feature"
           }
         }
       }
     },
-    "提前" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "In Advance"
+    "捷徑通知設定步驟": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Shortcut Notification Setup"
           }
         }
       }
     },
-    "提前天數" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Days in Advance"
+    "提前": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "In Advance"
           }
         }
       }
     },
-    "提醒時間" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Reminder Time"
+    "提前天數": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Days in Advance"
           }
         }
       }
     },
-    "提醒頻率" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Reminder Frequency"
+    "提醒時間": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Reminder Time"
           }
         }
       }
     },
-    "收下徽章" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Collect Badge"
+    "提醒頻率": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Reminder Frequency"
           }
         }
       }
     },
-    "效果預覽" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Preview"
+    "收下徽章": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Collect Badge"
           }
         }
       }
     },
-    "滑手機提醒" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Scrolling Reminder"
+    "效果預覽": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Preview"
           }
         }
       }
     },
-    "啟動滑手機時間提醒" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Start Scrolling Time Reminder"
+    "滑手機提醒": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Scrolling Reminder"
           }
         }
       }
     },
-    "新增待辦事項（按 Enter 儲存）..." : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Add to-do item…"
+    "啟動滑手機時間提醒": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Start Scrolling Time Reminder"
           }
         }
       }
     },
-    "新增純色卡片" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Add a Color"
+    "新增待辦事項（按 Enter 儲存）...": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Add to-do item…"
           }
         }
       }
     },
-    "新增習慣" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "New Habit"
+    "新增純色卡片": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Add a Color"
           }
         }
       }
     },
-    "時間到了，該讓眼睛和大腦活動活動喔～" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Time’s up! Give your eyes and mind a break~"
+    "新增習慣": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "New Habit"
           }
         }
       }
     },
-    "更換其他相片" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Change Photo"
+    "時間到了，該讓眼睛和大腦活動活動喔～": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Time’s up! Give your eyes and mind a break~"
           }
         }
       }
     },
-    "有好多想做的事，我們一步一步完成它！" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "So many habits to build! Let's make progress step by step!"
+    "更換其他相片": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Change Photo"
           }
         }
       }
     },
-    "有日期標籤的待辦提醒" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Dated To-do Reminders"
+    "有好多想做的事，我們一步一步完成它！": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "So many habits to build! Let's make progress step by step!"
           }
         }
       }
     },
-    "本週第 %lld 次成功留意滑手機時間！" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "You noticed your scrolling time %lld times this week!"
+    "有日期標籤的待辦提醒": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Dated To-do Reminders"
           }
         }
       }
     },
-    "查看所有便利貼" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "All Sticky Notes"
+    "本週第 %lld 次成功留意滑手機時間！": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "You noticed your scrolling time %lld times this week!"
           }
         }
       }
     },
-    "格式錯誤" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Invalid Format"
+    "查看所有便利貼": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "All Sticky Notes"
           }
         }
       }
     },
-    "次" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "times"
+    "格式錯誤": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Invalid Format"
           }
         }
       }
     },
-    "正在想一句話給你..." : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Thinking of something to say to you..."
+    "次": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "times"
           }
         }
       }
     },
-    "正在收集散落的記憶..." : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Gathering scattered memories..."
+    "正在想一句話給你...": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Thinking of something to say to you..."
           }
         }
       }
     },
-    "每 2 天" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Every 2 days"
+    "正在收集散落的記憶...": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Gathering scattered memories..."
           }
         }
       }
     },
-    "每 3 天" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Every 3 days"
+    "每 2 天": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Every 2 days"
           }
         }
       }
     },
-    "每天" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Every day"
+    "每 3 天": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Every 3 days"
           }
         }
       }
     },
-    "每日打卡提醒" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Daily Check-in Reminder"
+    "每天": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Every day"
           }
         }
       }
     },
-    "比例" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Aspect Ratio"
+    "每日打卡提醒": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Daily Check-in Reminder"
           }
         }
       }
     },
-    "深夜星際" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Midnight Galaxy"
+    "比例": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Aspect Ratio"
           }
         }
       }
     },
-    "為這個好習慣命名吧！" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Give this habit a name!"
+    "深夜星際": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Midnight Galaxy"
           }
         }
       }
     },
-    "無標籤的待辦提醒" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Untagged To-do Reminders"
+    "為這個好習慣命名吧！": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Give this habit a name!"
           }
         }
       }
     },
-    "無法儲存照片" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Couldn’t save photo"
+    "無標籤的待辦提醒": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Untagged To-do Reminders"
           }
         }
       }
     },
-    "無法新增照片日記" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Couldn’t add photo"
+    "無法儲存照片": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Couldn’t save photo"
           }
         }
       }
     },
-    "照片底色\n(想要呈現滿版照片可雙指放大預覽窗照片)" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Background Color (Pinch to zoom photo to fit full screen)"
+    "無法新增照片日記": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Couldn’t add photo"
           }
         }
       }
     },
-    "當天" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "On the Day"
+    "照片底色\n(想要呈現滿版照片可雙指放大預覽窗照片)": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Background Color (Pinch to zoom photo to fit full screen)"
           }
         }
       }
     },
-    "目前沒有待辦事項" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "No to-dos yet"
+    "當天": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "On the Day"
           }
         }
       }
     },
-    "目前的連續打卡為 %lld 天，已用完可補照片的張數。請明天繼續打卡來獲得更多額度！" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Current streak: %lld days. You've used all catch-up photo slots. Check in again tomorrow to earn more."
+    "目前沒有待辦事項": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "No to-dos yet"
           }
         }
       }
     },
-    "目前還沒有建立任何習慣\n點擊上方的新增按鈕開始吧！" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "No habits created yet.\nTap the \"+\" button above to get started!"
+    "目前的連續打卡為 %lld 天，已用完可補照片的張數。請明天繼續打卡來獲得更多額度！": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Current streak: %lld days. You've used all catch-up photo slots. Check in again tomorrow to earn more."
           }
         }
       }
     },
-    "目標天數" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Target Days"
+    "目前還沒有建立任何習慣\n點擊上方的新增按鈕開始吧！": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "No habits created yet.\nTap the \"+\" button above to get started!"
           }
         }
       }
     },
-    "真的" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Yes"
+    "目標天數": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Target Days"
           }
         }
       }
     },
-    "真的嗎？" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Really?"
+    "真的": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Yes"
           }
         }
       }
     },
-    "確定要刪除這個徽章嗎？" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Are you sure you want to delete this badge?"
+    "真的嗎？": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Really?"
           }
         }
       }
     },
-    "確定要刪除這個習慣嗎？" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Are you sure you want to delete this habit?"
+    "確定要刪除這個徽章嗎？": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Are you sure you want to delete this badge?"
           }
         }
       }
     },
-    "確定要刪除這張便利貼嗎？" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Are you sure you want to delete this sticky note?"
+    "確定要刪除這個習慣嗎？": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Are you sure you want to delete this habit?"
           }
         }
       }
     },
-    "確定要關閉自訂主題嗎？" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Are you sure you want to turn off the custom theme?"
+    "確定要刪除這張便利貼嗎？": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Are you sure you want to delete this sticky note?"
           }
         }
       }
     },
-    "確定關閉" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Turn Off"
+    "確定要關閉自訂主題嗎？": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Are you sure you want to turn off the custom theme?"
           }
         }
       }
     },
-    "確認變更" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Save Changes"
+    "確定關閉": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Turn Off"
           }
         }
       }
     },
-    "神秘徽章" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Mystery Badge"
+    "確認變更": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Save Changes"
           }
         }
       }
     },
-    "稍後再說" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Not Now"
+    "神秘徽章": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mystery Badge"
           }
         }
       }
     },
-    "稱號" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Title"
+    "稍後再說": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Not Now"
           }
         }
       }
     },
-    "編輯影像" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Edit Photo"
+    "稱號": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Title"
           }
         }
       }
     },
-    "編輯純色卡片" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Edit Color Card"
+    "編輯影像": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Edit Photo"
           }
         }
       }
     },
-    "繁體中文" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Mandarin"
+    "編輯純色卡片": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Edit Color Card"
           }
         }
       }
     },
-    "繼續完成待辦事項" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Continue To-dos"
+    "繁體中文": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mandarin"
           }
         }
       }
     },
-    "習慣名稱" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Habit Name"
+    "繼續完成待辦事項": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Continue To-dos"
           }
         }
       }
     },
-    "習慣大師" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Habit Master"
+    "習慣名稱": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Habit Name"
           }
         }
       }
     },
-    "背景色" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Background Color"
+    "習慣大師": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Habit Master"
           }
         }
       }
     },
-    "自訂主題" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Custom Theme"
+    "背景色": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Background Color"
           }
         }
       }
     },
-    "自訂橫幅與通知文字" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Custom Banner & Notification Text"
+    "自訂主題": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Custom Theme"
           }
         }
       }
     },
-    "若打卡中斷，重新連續滿 3 天會開啟新一輪額度。" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "If your streak breaks, a new allowance starts after 3 consecutive check-ins."
+    "自訂橫幅與通知文字": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Custom Banner & Notification Text"
           }
         }
       }
     },
-    "補照片" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Add Photo"
+    "若打卡中斷，重新連續滿 3 天會開啟新一輪額度。": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "If your streak breaks, a new allowance starts after 3 consecutive check-ins."
           }
         }
       }
     },
-    "補照片額度已用完" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "No catch-up photo slots left"
+    "補照片": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Add Photo"
           }
         }
       }
     },
-    "要不要休息一下" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "How about a quick break?"
+    "補照片額度已用完": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "No catch-up photo slots left"
           }
         }
       }
     },
-    "計時長度" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Timer Duration"
+    "要不要休息一下": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "How about a quick break?"
           }
         }
       }
     },
-    "該打卡囉！" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Time to check in!"
+    "計時長度": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Timer Duration"
           }
         }
       }
     },
-    "請先完成今日的習慣打卡，才能解鎖相片日記的權限喔！" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Please complete today's habit check-in to unlock the photo diary feature!"
+    "該打卡囉！": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Time to check in!"
           }
         }
       }
     },
-    "請先認真培養習慣，連續打卡才能獲得補照片的額度喔！" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Keep building your habit. A steady check-in streak earns catch-up photo slots."
+    "請先完成今日的習慣打卡，才能解鎖相片日記的權限喔！": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Please complete today's habit check-in to unlock the photo diary feature!"
           }
         }
       }
     },
-    "請到設定開啟通知權限，否則無法收到提醒喔！" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Please enable notifications in Settings, or you won't receive reminders!"
+    "請先認真培養習慣，連續打卡才能獲得補照片的額度喔！": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Keep building your habit. A steady check-in streak earns catch-up photo slots."
           }
         }
       }
     },
-    "請輸入 Gemini API Key" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Please enter Gemini API Key"
+    "請到設定開啟通知權限，否則無法收到提醒喔！": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Please enable notifications in Settings, or you won't receive reminders!"
           }
         }
       }
     },
-    "起點: %@" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Start: %@"
+    "請輸入 Gemini API Key": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Please enter Gemini API Key"
           }
         }
       }
     },
-    "近期打卡" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Recent Check-ins"
+    "起點: %@": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Start: %@"
           }
         }
       }
     },
-    "這裡有 %lld 件事，今天或許能解決它！" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Here are %lld tasks—maybe you can tackle them today!"
+    "近期打卡": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Recent Check-ins"
           }
         }
       }
     },
-    "通知" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Notifications"
+    "這裡有 %lld 件事，今天或許能解決它！": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Here are %lld tasks—maybe you can tackle them today!"
           }
         }
       }
     },
-    "通知內文" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Text"
+    "通知": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Notifications"
           }
         }
       }
     },
-    "通知標題" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Title"
+    "通知內文": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Text"
           }
         }
       }
     },
-    "連續打卡滿 3 天解鎖「補照片」功能。" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Reach a 3-day check-in streak to unlock catch-up photos."
+    "通知標題": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Title"
           }
         }
       }
     },
-    "選擇主題" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Select Theme"
+    "連續打卡滿 3 天解鎖「補照片」功能。": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Reach a 3-day check-in streak to unlock catch-up photos."
           }
         }
       }
     },
-    "選擇圖示" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Select Icon"
+    "選擇主題": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Select Theme"
           }
         }
       }
     },
-    "選擇天數" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Select Target Days"
+    "選擇圖示": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Select Icon"
           }
         }
       }
     },
-    "還差一點點喔！" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Almost there!"
+    "選擇天數": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Select Target Days"
           }
         }
       }
     },
-    "還沒有任何靈感紀錄" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "No ideas logged yet"
+    "還差一點點喔！": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Almost there!"
           }
         }
       }
     },
-    "鎖屏標題" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Lock Screen"
+    "還沒有任何靈感紀錄": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "No ideas logged yet"
           }
         }
       }
     },
-    "開始日期" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Start Date"
+    "鎖屏標題": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Lock Screen"
           }
         }
       }
     },
-    "關閉後將切換回預設主題，您目前的自訂色碼將不會被保存。\n建議您可以先截圖，以免想再次使用這組顏色！" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Turning this off will revert to the default theme, and your custom color code won't be saved. We recommend taking a screenshot first!"
+    "開始日期": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Start Date"
           }
         }
       }
     },
-    "隨機靈感" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Random Inspiration"
+    "關閉後將切換回預設主題，您目前的自訂色碼將不會被保存。\n建議您可以先截圖，以免想再次使用這組顏色！": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Turning this off will revert to the default theme, and your custom color code won't be saved. We recommend taking a screenshot first!"
           }
         }
       }
     },
-    "需要通知權限" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Notification Permission Required"
+    "隨機靈感": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Random Inspiration"
           }
         }
       }
     },
-    "頻率" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Frequency"
+    "需要通知權限": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Notification Permission Required"
           }
         }
       }
     },
-    "養成目標天數" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Target Days"
+    "頻率": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Frequency"
           }
         }
       }
     },
-    "養成習慣才能補照片喔" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Keep up your habit streak to add makeup photos!"
+    "養成目標天數": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Target Days"
           }
         }
       }
     },
-    "點選下方按鈕加入照片" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Tap the button below to add a photo"
+    "養成習慣才能補照片喔": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Keep up your habit streak to add makeup photos!"
           }
         }
       }
-    }
+    },
+    "點選下方按鈕加入照片": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tap the button below to add a photo"
+          }
+        }
+      }
+    },
+    "%lld 分鐘": {
+      "extractionState": "stale",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%lld mins"
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%lld 分鐘"
+          }
+        }
+      }
+    },
+    "回訊緩衝": {},
+    "啟動計時": {},
+    "啟動防沉迷計時": {},
+    "本週第 %lld 次成功滑手機有注意時間！": {},
+    "每 %lld 天": {},
+    "防誤觸回訊緩衝": {}
   },
-  "version" : "1.2"
+  "version": "1.2"
 }
